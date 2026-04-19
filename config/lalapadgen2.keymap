@@ -60,52 +60,52 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q              &kp W            &kp E         &kp R                        &kp T                                         &kp Y        &kp U                         &kp I          &kp O         &kp P
-&kp A              &kp S            &kp D         &kp F                        &kp G                                         &kp H        &kp J                         &kp K          &kp L         &mt2 EQUAL MINUS
-&mt2 LEFT_SHIFT Z  &kp X            &kp C         &kp V                        &kp B                                         &kp N        &kp M                         &kp COMMA      &kp PERIOD    &mt RIGHT_SHIFT SLASH
-&kp TAB            &kp LEFT_WIN     &kp LEFT_ALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 1 SPACE  &kp LEFT_SHIFT  &kp BACKSPACE    &lt 2 ENTER  &mt RIGHT_CONTROL LANGUAGE_1  &kp RIGHT_ALT  &kp LEFT_WIN  &kp ESC
-                   &kp PRINTSCREEN  &kp RIGHT     &kp DOWN                     &kp LEFT     &kp UP          &kp C_VOLUME_UP  &mkp MB4     &kp C_VOLUME_DOWN             &mkp MB5       &kp C_MUTE
-&mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                                                           &mkp LCLK      &mkp RCLK     &mkp MCLK
-&mkp MB4           &mkp MB5         &kp LG(TAB)   &kp LG(D)                    &kp LCTRL                                     &mkp MB4     &mkp MB5                      &kp LG(TAB)    &kp LG(D)     &kp LCTRL
+&kp Q              &kp W            &kp E         &kp R                        &kp T                                                   &kp Y        &kp U                         &kp I          &kp O         &kp P
+&kp A              &kp S            &kp D         &kp F                        &kp G                                                   &kp H        &kp J                         &kp K          &kp L         &mt2 EQUAL MINUS
+&mt2 LEFT_SHIFT Z  &kp X            &kp C         &kp V                        &kp B                                                   &kp N        &kp M                         &kp COMMA      &kp PERIOD    &mt RIGHT_SHIFT SLASH
+&kp TAB            &kp LEFT_WIN     &kp LEFT_ALT  &mt LEFT_CONTROL LANGUAGE_2  &lt 1 SPACE  &kp LEFT_SHIFT  &mt RIGHT_SHIFT BACKSPACE  &lt 2 ENTER  &mt RIGHT_CONTROL LANGUAGE_1  &kp RIGHT_ALT  &kp LEFT_WIN  &kp ESC
+                   &kp PRINTSCREEN  &kp RIGHT     &kp DOWN                     &kp LEFT     &kp UP          &kp C_VOLUME_UP            &mkp MB4     &kp C_VOLUME_DOWN             &mkp MB5       &kp C_MUTE
+&mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                                                                     &mkp LCLK      &mkp RCLK     &mkp MCLK
+&mkp MB4           &mkp MB5         &kp LG(TAB)   &kp LG(D)                    &kp LCTRL                                               &mkp MB4     &mkp MB5                      &kp LG(TAB)    &kp LG(D)     &kp LCTRL
             >;
         };
 
         SECONDARY_LAYER {
             display-name = "secondary_layer";
             bindings = <
-&none             &kp F2             &kp UP    &none      &none                    &kp KP_NUMLOCK     &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SLASH
-&none             &kp LEFT           &kp DOWN  &kp RIGHT  &none                    &kp DOUBLE_QUOTES  &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY
-&none             &none              &none     &none      &none                    &kp EQUAL          &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
-&trans            &trans             &trans    &trans     &trans  &trans  &kp DEL  &trans             &kp KP_NUMBER_0    &kp COMMA        &kp KP_DOT       &kp KP_PLUS
-                  &trans             &trans    &trans     &trans  &trans  &trans   &trans             &trans             &trans           &trans
-&trans            &trans             &trans                                                                              &trans           &trans           &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans    &trans     &trans                   &kp LC(LG(LEFT))   &kp LC(LG(RIGHT))  &trans           &trans           &trans
+&kp LS(LC(T))     &kp F2             &kp UP           &none        &none                    &kp KP_NUMLOCK    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SLASH
+&kp LC(T)         &kp LEFT           &kp DOWN         &kp RIGHT    &none                    &kp APOSTROPHE    &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY
+&kp LC(W)         &none              &kp LC(LS(TAB))  &kp LC(TAB)  &none                    &kp EQUAL         &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS
+&trans            &trans             &trans           &trans       &trans  &trans  &kp DEL  &trans            &kp KP_NUMBER_0    &kp COMMA        &kp KP_DOT       &kp KP_PLUS
+                  &trans             &trans           &trans       &trans  &trans  &trans   &trans            &trans             &trans           &trans
+&trans            &trans             &trans                                                                                      &trans           &trans           &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans       &trans                   &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans           &trans           &trans
             >;
         };
 
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp F1           &kp F2         &kp F3        &kp F4                &kp F5                                 &kp F6            &kp F7             &kp F8                &kp F9             &kp F10
-&kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                            &none             &none              &kp COLON             &kp DOUBLE_QUOTES  &kp TILDE
-&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &none              &kp UNDER
-&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans            &trans             &trans                &kp F12            &kp F11
+&kp F1           &kp F2         &kp F3        &kp F4                &kp F5                                 &kp F6            &kp F7             &kp F8                &kp F9          &kp F10
+&kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                            &none             &none              &kp SEMICOLON         &kp APOSTROPHE  &kp TILDE
+&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &none           &kp UNDER
+&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans            &trans             &trans                &kp F12         &kp F11
                  &trans         &trans        &trans                &trans                 &trans  &trans  &trans            &trans             &trans                &trans
-&trans           &trans         &trans                                                                                                          &trans                &trans             &trans
-&trans           &trans         &trans        &trans                &trans                                 &trans            &trans             &trans                &trans             &trans
+&trans           &trans         &trans                                                                                                          &trans                &trans          &trans
+&trans           &trans         &trans        &trans                &trans                                 &trans            &trans             &trans                &trans          &trans
             >;
         };
 
         SYSTEM_LAYER {
             display-name = "system_layer";
             bindings = <
-&kp F1   &kp F2   &kp F3   &kp F4   &kp F5                   &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
-&kp F6   &kp F7   &kp F8   &kp F9   &kp F10                  &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &trans
-&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                  &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
-&trans   &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans                         &trans
-         &trans   &trans   &trans   &trans   &trans  &trans  &trans                         &trans                         &trans                         &trans
-&trans   &trans   &trans                                                                                                   &trans                         &trans                         &trans
-&trans   &trans   &trans   &trans   &trans                   &trans                         &trans                         &trans                         &trans                         &trans
+&none   &none   &none   &none   &none                   &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
+&none   &none   &none   &none   &none                   &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &trans
+&none   &none   &none   &none   &none                   &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                         &trans                         &trans                         &trans                         &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans                         &trans                         &trans                         &trans
+&trans  &trans  &trans                                                                                                &trans                         &trans                         &trans
+&trans  &trans  &trans  &trans  &trans                  &trans                         &trans                         &trans                         &trans                         &trans
             >;
         };
     };
