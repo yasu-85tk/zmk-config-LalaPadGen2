@@ -79,13 +79,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp F1           &kp F2         &kp F3        &kp F4                &kp F5                                 &kp F6            &kp F7             &kp F8         &kp F9    &kp F10
-&kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                            &none             &none              &kp SEMICOLON  &kp SQT   &kp TILDE
-&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &trans            &mkp MB4           &trans         &mkp MB5  &kp UNDER
-&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F12   &kp F11
-                 &trans         &trans        &trans                &trans                 &trans  &trans  &trans            &trans             &trans         &trans
-&trans           &trans         &trans                                                                                                          &trans         &trans    &trans
-&trans           &trans         &trans        &trans                &trans                                 &trans            &trans             &trans         &trans    &trans
+&kp F1           &kp F2         &kp F3        &kp F4                &kp F5                                 &kp F6            &kp F7             &kp F8                &kp F9    &kp F10
+&kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                            &none             &none              &kp SEMICOLON         &kp SQT   &kp TILDE
+&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &mkp MB5  &kp UNDER
+&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans            &trans             &trans                &kp F12   &kp F11
+                 &trans         &trans        &trans                &trans                 &trans  &trans  &trans            &trans             &trans                &trans
+&trans           &trans         &trans                                                                                                          &trans                &trans    &trans
+&trans           &trans         &trans        &trans                &trans                                 &trans            &trans             &trans                &trans    &trans
             >;
         };
 
